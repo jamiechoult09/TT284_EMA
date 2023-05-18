@@ -1,0 +1,31 @@
+.body {
+    width: 1024px;
+    height: 768px;
+}
+
+
+.logo {
+    width: 144px;
+    height: 119px;
+    position: absolute; left: 50px; top: 40px;
+}
+
+.titleone {
+    position: absolute; left: 250px; top:40px;
+}
+
+.titletwo {
+    position: absolute; left: 508px; top: 40px;
+}
+
+.admin {
+    position: absolute; left: 870px; top: 20px;
+}
+
+.hrnav {
+    margin-top: 175px;
+}
+
+#navigation {
+    position: absolute; left: 245px; top: 100px;
+}
