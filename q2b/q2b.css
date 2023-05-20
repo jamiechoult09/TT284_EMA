@@ -31,7 +31,7 @@ body {
     position: absolute; left: 245px; top: 100px;
 }
 
-a {
+.btn, .admin{
     background: #3498db;
     background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
     background-image: -moz-linear-gradient(top, #3498db, #2980b9);
@@ -48,7 +48,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+.btn:hover, .admin:hover {
     background: #3cb0fd;
     background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
@@ -58,6 +58,28 @@ a:hover {
     text-decoration: none;
 }
 
+label {
+
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.025rem;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #3498db;
+    border-radius: 0rem;
+    -webkit-border-radius: 0rem;
+    -moz-border-radius: 0rem;
+    padding: 0.35rem 0.5rem;
+    border-style: none;
+    border-width: 0rem;
+    border-color: #EF2D56;
+    -webkit-box-shadow: inset 32px -8px 0px -16px rgba(51,51,51,1);
+    -moz-box-shadow: inset 32px -8px 0px -16px rgba(51,51,51,1);
+    -box-shadow: inset 32px -8px 0px -16px rgba(51,51,51,1);
+    
+    }
+
 h2 {
     text-align: center;
 }
@@ -65,4 +87,53 @@ h2 {
 form {
     text-align: center;
 }
+
+@media screen and (max-width: 376px){
+    
+    #navigation {
+        visibility: hidden;
+    }
+
+    .admin {
+        visibility: hidden;
+    }
+
+    .logo {
+        position: absolute; left: 260px; top: -80px;
+        width: 600px;
+        height: 400px;
+    }
+
+    .titleone {
+        position: absolute; top: 250px; left: 380px;
+        width: 375px;
+        font-size: 50px;
+    }
+
+    .titletwo {
+        position: absolute; top: 340px; left: 420px;
+        width: 375px;
+        font-size: 50px;
+    }
+
+    .hrnav {
+        margin-top: 475px;
+    }
+
+    h2 {
+        font-size: 45px;
+        width: 500px;
+        
+    }
+    
+
+    main  {
+        position: absolute; top: 500px; left: 300px;
+    }
+
+    form {
+        font-size: 30px;
+    }
+}
+
 
