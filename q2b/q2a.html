@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="Jamie Cunningham-Hoult"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+    </style>
+    <title>Announcements</title>
+
+    <link rel="stylesheet" href="./q2a.css" />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="./img/logo.png" alt="OU Walking club Logo" />
+      <h1 class="titleone">OU Walking Club</h1>
+      <h1 class="titletwo">Admin Panel</h1>
+      <p>
+        <a class="admin" href="members.html">Admin Jamie - Logout</a>
+      </p>
+      <nav id="navigation">
+        <p>
+          <a class="btn" href="index.html">Home</a>
+          <a class="btn" href="walkevents.html">Walk Events</a>
+          <a class="btn" href="otherevents.html">Other Events</a>
+          <a class="btn" href="news.html">News</a>
+          <a class="btn" href="memberships.html">Memberships</a>
+          <a class="btn" href="./q2a.html">Announcements</a>
+        </p>
+      </nav>
+      <hr class="hrnav" />
+    </header>
+    <main>
+      <h2>Send Announcement</h2>
+      <form
+        method="post"
+        action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php"
+      >
+        <p>
+          <label for="name">Senders Name:</label>
+          <input type="text" id="name" name="Senders Name" />
+        </p>
+        <p>
+          <label for="subject">Subject Line</label>
+          <input type="text" id="subject" name="Subject Line" />
+        </p>
+        <p>
+          <label for="datetosend">Date to send</label>
+          <input type="date" id="datetosend" name="date to send" />
+        </p>
+        <p>
+          <label for="announcement">Announcement</label>
+        <p>  
+          <textarea
+            name="announcement"
+            id="announcement"
+            cols="40"
+            rows="15"
+          ></textarea>
+        </p>
+        </p>
+        <p>
+          <input type="hidden" id="hiddenfield" name="SessionIdentifier" value="ee32-ff67-abcd1234-9090">
+        </p>
+        <p>
+          <label for="upload">File Attachment</label>
+          <input type="file" id="upload" name="file attachment">
+        </p>
+        <p>
+          <input type="submit" value="send announcement">
+        </p>
+      </form>
+    </main>
+  </body>
+</html>
