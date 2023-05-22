@@ -1,3 +1,5 @@
+/*This element changes the default width and height for the website suitable
+for laptop screens and changes the font to use Lato. */
 body {
     
     width: 1024px;
@@ -5,32 +7,39 @@ body {
     font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif
 }
 
+/*This element changes the dimensions off the logo and adjusts the positioning */
 .logo {
     width: 200px;
     height: 160px;
     position: absolute; left: 10px; top: 5px;
 }
 
+/*changes the positioning for titlone. */
 .titleone {
     position: absolute; left: 300px; top:40px;
 }
 
+/*positoning for titletwo */
 .titletwo {
     position: absolute; left: 545px; top: 40px;
 }
 
+/* positioning for user logged in. */
 .admin {
     position: absolute; left: 850px; top: 20px;
 }
 
+/* Positioning for Horizontal line to seperate header and body */
 .hrnav {
     margin-top: 175px;
 }
 
+/*Positioning for navigation menu*/
 #navigation {
     position: absolute; left: 245px; top: 100px;
 }
 
+/* Styling for buttons */
 .btn, .admin{
     background: #3498db;
     background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
@@ -48,6 +57,7 @@ body {
     text-decoration: none;
 }
 
+/* Styling for buttons on hover */
 .btn:hover, .admin:hover {
     background: #3cb0fd;
     background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
@@ -58,6 +68,7 @@ body {
     text-decoration: none;
 }
 
+/* Styling for labels */
 label {
 
     font-size: 0.75rem;
@@ -80,12 +91,12 @@ label {
     
     }
 
-
+/* Align text to center */    
 h2 {
     text-align: center;
 }
 
+/* Align text to center */
 form {
     text-align: center;
 }
-

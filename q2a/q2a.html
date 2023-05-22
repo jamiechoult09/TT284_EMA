@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="Jamie Cunningham-Hoult"
-      content="width=device-width, initial-scale=1.0"
     />
+    <!--Google font family -->
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
     </style>
@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./q2a.css" />
   </head>
   <body>
+    <!--Start off the header, classes will be added for styling and positioning -->
     <header>
       <img class="logo" src="./img/logo.png" alt="OU Walking club Logo" />
       <h1 class="titleone">OU Walking Club</h1>
@@ -23,8 +24,10 @@
       <p>
         <a class="admin" href="members.html">Admin Jamie - Logout</a>
       </p>
+      <!--Navigation with id for styling and positioning -->
       <nav id="navigation">
         <p>
+          <!--Class btn for styling and positioning -->
           <a class="btn" href="index.html">Home</a>
           <a class="btn" href="walkevents.html">Walk Events</a>
           <a class="btn" href="otherevents.html">Other Events</a>
@@ -33,17 +36,22 @@
           <a class="btn" href="./q2a.html">Announcements</a>
         </p>
       </nav>
+      <!--Horizontal rule to seperate the header from the main body -->
       <hr class="hrnav" />
+      <!--end off header section -->
     </header>
+    <!--Start off Main body -->
     <main>
+      <!--Page heading -->
       <h2>Send Announcement</h2>
+      <!--Form including submission action -->
       <form
         method="post"
         action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php"
       >
         <p>
           <label for="name">Senders Name:</label>
-          <input type="text" id="name" name="Senders Name" />
+          <input type="text" id="name" name="Senders Name"/>
         </p>
         <p>
           <label for="subject">Subject Line</label>
@@ -56,7 +64,9 @@
         <p>
           <label for="announcement">Announcement</label>
         <p>  
+          <!--Class to adjust font size for mobile screen -->
           <textarea
+            class="texta"
             name="announcement"
             id="announcement"
             cols="40"
@@ -65,6 +75,7 @@
         </p>
         </p>
         <p>
+          <!--Hidden field for administrators to see -->
           <input type="hidden" id="hiddenfield" name="SessionIdentifier" value="ee32-ff67-abcd1234-9090">
         </p>
         <p>
