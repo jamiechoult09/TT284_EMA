@@ -128,12 +128,29 @@ form {
     
 
     main  {
-        position: absolute; top: 500px; left: 300px;
+        position: absolute; top: 500px; left: 150px;
     }
 
     form {
-        font-size: 30px;
+        font-size: 10vw;
     }
+
+    label {
+       font-size: 9vw;
+    }
+
+    input {
+        font-size: 10vw;
+    }
+
+    .btn {
+        font-size: 12vw;
+    }
+
+    .texta {
+        font-size: 9vw;
+    }
+
 }
 
 
